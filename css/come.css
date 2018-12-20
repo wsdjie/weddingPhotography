@@ -1,0 +1,278 @@
+/*去内外边距*/
+html,body,div,p,ul,ol,li{
+	margin: 0;
+	padding: 0;
+}
+html, body{
+	width: 100%;
+	min-width: 1200px;
+}
+/*去掉所有列表的默认样式*/
+li{
+	list-style: none;
+}
+/*去掉所有a标签的下划线*/
+a{
+	text-decoration: none;
+}
+
+
+/*中部背景色设置*/
+.long{
+	overflow: hidden;
+	width: 100%;
+	height: auto;
+	background: #f0f0f0 no-repeat;
+	margin: auto;
+}
+/*头部*/
+.top{
+	height: 179px;
+	width: 100%;
+	background: url(../img/index03_04.png) repeat-x; 
+	margin: auto;
+}
+/*头部-中间部分*/
+.top-center{
+	width: 1000px;
+	height: 100%;
+	background: url(../img/index01_02.png) no-repeat;
+	margin: auto;
+}
+.top-nav{
+	margin-left: 48px;
+	margin-top: 5px;
+}
+/*头部-导航条*/
+.top-nav li{
+	float: left;
+	width: 100px;
+	margin: 0 1px;
+	text-align: right;
+}
+/*设置导航条中文字体颜色及加粗*/
+.top-nav li a{
+	color: #000;
+	font-weight: bold;
+
+}
+/*设置导航条英文字体颜色、字体大小、不加粗*/
+.top-nav li a p{
+	color: #b4b4b4;
+	font-size: 12px;
+	font-weight: 100;
+}
+/*设置鼠标悬停更改字体颜色*/
+.top-nav li a:hover{
+	color: red;
+}
+.top-nav li a:hover p{
+	color: #000;
+}
+/*头部-banner部分*/
+.banner{
+	width: 100%;
+	min-width: 1200px;
+	height: 525px;
+	/*background: url(../img/index04_05.png) repeat-x center;*/
+	position: relative;
+}
+.banner-play{
+	width: 100%;
+	height: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	top: 0;
+	left: 0;
+	position: absolute;
+}
+/*头部-banner-ul部分*/
+.banner-ul{
+	width: 1000px;
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	margin-left: -500px;
+	overflow: hidden;
+}
+/*头部-banner-ul-li部分*/
+.banner-ul li{
+	float: left;
+	width: 216px;
+	height: 34px;
+	color: #fff;
+	margin: 0 2px;
+	text-align: center;
+	font-size: 14px;
+	line-height: 34px;
+	cursor: pointer;
+}
+/*banner-ul-left部分*/
+#banner-ul-left{
+	margin-left: 0;
+	width: 57px;
+	height: 34px;
+	background: url(../img/arr.png) no-repeat;
+}
+/*banner-ul部分-right*/
+#banner-ul-right{
+	width: 57px;
+	height: 34px;
+	background: url(../img/arr.png) no-repeat;
+	background-position: -57px 0;
+	margin: 0 0 0 4px;
+}
+/*头部-banner-鼠标悬停*/
+/*.banner-ul li:hover{
+	background: red;
+}*/
+#banner-ul-left:hover{
+	background-position: 0 -34px;
+}
+#banner-ul-right:hover{
+	background-position: -57px -34px;
+}
+.center-top{
+	width: 1000px;
+	height: 98px;
+	margin: 1px auto;
+	background: url(../img/center-01.png) no-repeat center;
+	position: relative;
+}
+.center-top-qq{
+	position: absolute;
+	width: 188px;
+	height: 98px;
+	top: 0;
+	left: 262px;
+}
+.center-top-qq a,.qq-ul a{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.qq-ul{
+	position: absolute;
+	top: 44px;
+	left: 477px;
+	width: 150px;
+	height: 40px;
+}
+.qq-ul li{
+	float: left;
+	width: 42px;
+	height: 42px;
+	border-radius: 100%;
+}
+
+
+
+
+/*底部*/
+/*背景色框*/
+.bottom-01{
+	width: 100%;
+	height: 540px;
+	background: #2E2E2E;
+	margin: auto;
+}
+/*底部第一层内容框*/
+.bottom-01-center{
+	width: 1000px;
+	height: 240px;
+	margin: auto;
+}
+.bottom-01-center>div{
+	float: left;
+}
+.address{
+	width: 300px;
+	height: 240px;
+	background: url(../img/bottom.gif) no-repeat;
+}
+.uls{
+	width: 700px;
+	height: 240px;
+}
+.uls ul{
+	width: 130px;
+	float: left;
+	margin: 4px 22px;
+}
+.li-title{
+	font-weight: bold;
+	height: 25px !important;
+	line-height: 25px !important;
+	padding-left: 10px;
+	background-color: #000;
+	color: #fff !important;
+	list-style-type: none !important;
+	font-size: 15px !important;
+}
+.uls ul li{
+	height: 20px;
+	line-height: 20px;
+	font-size: 12px;
+	margin: 1px 0;
+	list-style-type: disc;
+	list-style-position: inside;
+	color: #979797;
+}
+.uls ul li:hover{
+	background-color: #676767;
+}
+.uls ul:hover .li-title{
+	background-color: #676767;
+}
+/*底部中间内容框*/
+.bottom-01-zj{
+	width: 100%;
+	height: 112px;
+	background: url(../img/bottom-05.png);
+	position: relative;
+}
+.bottom-01-zj-wz{
+	width: 1000px;
+	height: 112px;
+	margin: auto;
+}
+.bottom-02{
+	width: 1000px;
+	height: 78px;
+	margin: auto;
+	position: relative;
+}
+.zi-wj-img{
+	position: absolute;
+	width: 578px;
+	height: 84px;
+	background: url(../img/bottom-07.png);
+	margin-top: 14px ;
+	margin-left: 211px;
+}
+/*底部最底层背景色框*/
+.bottom-03{
+	width: 100%;
+	height: 110px;
+	background: url(../img/bottom-08.png) repeat-x;
+}
+.bottom-02 p{
+	color: #979797;
+	position: absolute;
+	font-size: 13px;
+	line-height: 28px;
+	width: 965px;
+    margin: 12px 17.5px;
+}
+.bottom-03-p{
+	width: 1000px;
+	height: 110px;
+	margin: auto;
+	position: relative;
+}
+.bottom-03-p p{
+	color: #FFFFFF;
+	font-size: 13px;
+	margin: 18px 0px;
+	position: absolute;
+}

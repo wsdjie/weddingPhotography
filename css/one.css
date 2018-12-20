@@ -1,0 +1,184 @@
+
+
+/*白色背景(大)*/
+.center-bj1{
+	width:1000px;
+	height: 506px;
+	margin: 15px auto;
+	background: url(../img/center-02.png);
+}
+/*左边框*/
+.center-left{
+	width: 611px;
+	height: 490px;
+	margin: 10px 5px;
+	float: left;
+}
+/*右边照片框*/
+.center-right{
+	width: 350px;
+	height: 490px;
+	margin: 10px 5px;
+	background: url(../img/center-06.png);
+	float: right;
+}
+.left-center{
+	width: 611px;
+    height: 215px;
+}
+/*左边照片底片框*/
+.left-zj{
+	float: left;
+	width: 318px;
+	height: 200px;
+	margin: 15px 2px;
+	background: url(../img/center-04.png) no-repeat;
+	position: relative;
+	overflow: hidden;
+}
+/*左边照片*/
+.left-zj-tp{
+	position: absolute;
+	top: 0;
+	left: 0;
+	
+}
+.left-zj-tp>div{
+	margin: 5.5px 7px;
+	width: 304px;
+	height: 189px;
+}
+/*左边文字*/
+.left-wz{
+	width: 280px;
+	height: 201px;
+	margin: 18px -16px;
+	float: right;
+}
+.left-wz ul li {
+	width: 280px;
+	height: 65.5px;
+	overflow: hidden;
+	transition: .5s;
+}
+#list-1{
+	background: url(../img/ico_bg1.gif) no-repeat ;
+}
+#list-2{
+	background: url(../img/ico_bg2.gif) no-repeat ;
+}
+#list-3{
+	background: url(../img/ico_bg3.gif) no-repeat ;
+}
+
+.left-wz ul li a {
+	margin-top: 20px;
+	margin-left: 44px;
+	display: block;
+	font-size: 12px;
+	color: #000000;
+	width: 215px;
+}
+.left-wz ul li a:hover{
+	color: red;
+}
+.left-bottom{
+	width: 611px;
+    height: 195px;
+    margin: 5px 0;
+    
+}
+.left-bottom-left{
+	float: left;
+	width: 50%;
+	height: 195px;
+	margin: -10px 0;
+}
+.left-bottom-right{
+	float: right;
+	width: 50%;
+	height: 195px;
+	margin: -17px -19px;
+}
+
+#bottom-list01{
+	font-weight: bold;
+	list-style: none;
+	font-size: 15px;
+	border: none;
+}
+
+#bottom-list01 a{
+	font-weight: 100;
+	font-size: 12px;
+	color: #892223;
+	margin-left: 10px;
+}
+.left-bottom-left ul li{
+	width: 285px;
+	height: 30px;
+	font-size: 12.5px;
+	list-style-image: url(../img/center-sanjiao.png);
+	list-style-position: inside;
+	line-height: 30px;
+	border-bottom: 1px dashed gainsboro;
+}
+.left-bottom-left ul li a{
+	color: #000;
+}
+/*右边字体*/
+#bottom-list02{
+	font-weight: bold;
+	list-style: none;
+	font-size: 15px;
+	border: none;
+}
+
+#bottom-list02 a{
+	font-weight: 100;
+	font-size: 12px;
+	color: #892223;
+	margin-left: 10px;
+}
+.left-bottom-right ul li{
+	width: 285px;
+	height: 30px;
+	font-size: 12.5px;
+	list-style-image: url(../img/center-sanjiao.png);
+	list-style-position: inside;
+	line-height: 30px;
+	border-bottom: 1px dashed gainsboro;
+}
+.left-bottom-right ul li a{
+	color: #000;
+}
+.left-bottom-left ul li a:hover{
+	color: red;
+}
+.left-bottom-right ul li a:hover{
+	color: red;
+}
+/*白色背景图02*/
+.center-bj2{
+	width:1000px;
+	height: 432px;
+	margin: 15px auto;
+	background: url(../img/center02-02.png);
+	position: relative;
+}
+.xc{
+	width: 969px;
+	height: 326px;
+	margin: 14px 16.5px;
+	position: absolute;
+}
+.xc li{
+	float: left;
+	margin: 0 1px;
+}
+
+
+
+
+
+

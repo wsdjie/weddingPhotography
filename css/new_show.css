@@ -1,0 +1,142 @@
+.new_show-center{
+	width: 1000px;
+	height: 960px;
+	margin: 15px auto;
+	background: #FFFFFF;
+}
+.new_show-left{
+	float: left;
+	height: 100%;
+	width: 675px;
+}
+.new_show-right{
+	height: 100%;
+	width: 291px;
+	float: right;
+}
+.new_show-left-wz ul li{
+	float: left;
+}
+.new_show-left-wz{
+	margin:10px ;
+	overflow: hidden;
+}
+#showwz01{
+	font-weight: bold;
+	font-family: "微软雅黑";
+	font-size: 14px;
+}
+#showwz02{
+	font-family: "微软雅黑";
+	font-size: 12px;
+}
+.left-show-redbt{
+	width: 665px;
+	height: 30px;
+	background: red;
+	color: #FFFFFF;
+	text-align: center;
+	line-height: 30px;
+	margin-left: 10px;
+}
+.left-show-tw{
+	margin-top: 20px;
+	margin-left: 15px;
+}
+.show-tw-tp{
+	width: 660px;
+	height: 411px;
+	background: url(../img/news_show-tw_03.png) no-repeat;
+	margin-bottom: 5px;
+	margin-top: 10px;
+}
+.left-show-tw p{
+	font-size: 12px;
+	line-height: 24px;
+}
+.fx-qq p{
+	float: left;
+	line-height: 28px;
+}
+.fx-qq{
+	text-align: center;
+}
+.show-qq{
+	margin-left: 50px;
+	width: 578px;
+	height: 28px;
+	background: url(../img/news_show-QQ.png) no-repeat;
+}
+.qq01 a{
+	float: left;
+	display: block;
+	height: 28px;
+	width: 70px;
+	margin: 0 3px;
+}
+.qq02 a{
+	float: left;
+	display: block;
+	height: 28px;
+	width: 58px;
+	margin: 0 3px;
+}
+
+.qq03 a{
+	float: left;
+	display: block;
+	height: 28px;
+	width: 50px;
+	margin: 0 3px;
+}
+
+
+.newtop-right-02{
+	margin-top: 45px;
+}
+.newtop-right-02{
+	font-family: "微软雅黑";
+	overflow: hidden;
+	width: 251px;
+	height: 33px;
+	line-height: 33px;
+	padding-left : 40px;
+	color: #FFFFFF;
+	background:url(../img/libg16.gif) no-repeat;
+}
+.newtop-txt02 ul li {
+	line-height: 30px;
+	font-size: 12px;
+	 list-style-type: disc;
+    list-style-position: inside;
+}
+.newtop-txt02 ul li:hover{
+	background: red;
+	color: #FFFFFF;
+}
+.new-right{
+	margin-top: 20px !important;
+}
+.newshow-right-txt{
+	margin-top: 10px;
+}
+.newshow-right-02{
+	font-family: "微软雅黑";
+	overflow: hidden;
+	width: 251px;
+	height: 33px;
+	line-height: 33px;
+	padding-left : 40px;
+	color: #FFFFFF;
+	background:url(../img/libg16.gif) no-repeat;
+}
+.newshow-txt02 ul li {
+	line-height: 30px;
+	font-size: 12px;
+	 list-style-type: disc;
+    list-style-position: inside;
+}
+.newshow-txt02 ul li:hover{
+	background: red;
+	color: #FFFFFF;
+}
